@@ -1,0 +1,28 @@
+# --- Core Web Framework ---
+Flask==3.1.2
+
+# --- Database (MySQL) ---
+mysql-connector-python==9.0.0
+
+# --- Machine Learning / Computer Vision ---
+opencv-contrib-python==4.10.0.84
+opencv-python==4.10.0.84
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.2.3
+
+# --- Image Processing ---
+Pillow==10.4.0
+
+# --- Utility Libraries ---
+python-dotenv==1.0.1
+joblib==1.4.2
+pathlib==1.0.1
+
+# --- Optional: For development and debugging ---
+matplotlib==3.9.2
+tqdm==4.66.5
+
+# --- Optional: WebSocket / Live updates (future use for live attendance feedback) ---
+flask-socketio==5.3.6
+eventlet==0.36.1
